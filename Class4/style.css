@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  width: 50px;
+  height: 50px;
+  /* background-color: aqua; */
+  /* padding: 10px 0px 10px 0px; */
+  /* padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px; */
+}
+#box1 {
+  background-color: red;
+  padding: 10px 0px 10px 0px;
+  box-sizing: border-box;
+  /* margin: 10px 0px 50px 10px;
+  border: 10px solid black; */
+}
+/* #box2 {
+  background-color: rgb(77, 223, 10);
+  margin: 20px 0px 0px 10px;
+} */
