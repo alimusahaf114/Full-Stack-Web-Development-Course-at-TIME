@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <style>
+  <!-- <style>
     body{
       background-color: #33b2d5e0;
     }
@@ -21,13 +21,41 @@
       background-repeat: no-repeat;
     }
 
-  </style>
+  </style> -->
 </head>
 <body>
+    <h1>We are learning Form</h1>
+    <form action="/server.php" >
+      Name : <input type="text" placeholder="Enter your name" required><br><br>
+      Email: <input type="email" placeholder="Enter your email..." required><br><br>
+      Password : <input type="password" placeholder="password">
+      <br><br>
+      Date : <input type="date" > <br><br>
+      <input type="file" name="file" id="file">
+      <input type="color" name="file" id="file">
+      <h2>Radio Button</h2>
+      Male: <input type="radio"  name="male" id="male">
+      Female: <input type="radio"   name="Female" id="Female">
+      Other: <input type="radio"  name="other" id="other">
 
-    <div>
+      <h2>CheckBoxes</h2>
+      Male: <input type="checkbox"  name="male" id="male">
+      Female: <input type="checkbox"   name="Female" id="Female">
+      Other: <input type="checkbox"  name="other" id="other"><br>
+
+      <textarea name="details" id="info" placeholder="please provide your feedback"></textarea><br>
+      <button type="submit"> Submit </button>
+
+    </form>
+
+
+
+
+
+
+    <!-- <div>
       <p>Ali</p>
-    </div>
+    </div> -->
   <!-- <h1>
     This is heading element
   </h1> -->

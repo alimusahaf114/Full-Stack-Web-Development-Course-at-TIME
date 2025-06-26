@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#Parent {
+  width: 400px;
+  height: 300px;
+  background-color: grey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+#child {
+  width: 120px;
+  height: 100px;
+  /* margin: 10px; */
+}
+.box1 {
+  background-color: red;
+}
+.box2 {
+  background-color: green;
+}
+.box3 {
+  background-color: rgb(238, 255, 0);
+}
+.box4 {
+  background-color: rgb(236, 8, 164);
+}
