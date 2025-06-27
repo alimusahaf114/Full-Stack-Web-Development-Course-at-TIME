@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main {
+  width: 100%;
+  background: linear-gradient(
+      to top,
+      rgba(0, 0, 0, 0.5) 50%,
+      rgba(0, 0, 0, 0.5) 50%
+    ),
+    url(pic.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+.logo {
+  color: #03f2de;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px 0px 0px 10px;
+  float: left;
+}
+.menu {
+  width: 400px;
+  float: left;
+  height: 70px;
+}
+
+ul {
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  list-style: none;
+  margin-left: 60px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: #40faeb;
+}
+.search {
+  width: 330px;
+  float: right;
+}
+.srch {
+  font-family: "Times New Roman";
+  width: 200px;
+  height: 40px;
+  background: transparent;
+  border: 1px solid #03f2de;
+  margin-top: 13px;
+  color: #fff;
+  border-right: none;
+  font-size: 16px;
+  float: left;
+  padding: 10px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.btn {
+  width: 100px;
+  height: 40px;
+  background: #03f2de;
+  border: 2px solid #03f2de;
+  margin-top: 13px;
+  color: #fff;
+  font-size: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+.btn:focus {
+  outline: none;
+}
+.src:focus {
+  outline: none;
+}
