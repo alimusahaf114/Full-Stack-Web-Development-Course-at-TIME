@@ -1,0 +1,44 @@
+/* .box1 {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: 10px;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+  position: relative;
+  top: 70px;
+  left: 90px;
+}
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  margin: 10px;
+  position: absolute;
+  top: 90px;
+  left: 50px;
+}
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  margin: 10px;
+}
+.box9 {
+  width: 100px;
+  height: 100px;
+  background-color: violet;
+  margin: 10px;
+  position: fixed;
+  z-index: 100;
+}
+.parent {
+  width: 500px;
+  height: 400px;
+  background-color: grey;
+  position: relative;
+} */
