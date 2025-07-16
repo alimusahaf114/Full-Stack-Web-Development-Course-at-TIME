@@ -1,0 +1,28 @@
+.parent {
+  width: 700px;
+  height: 600px;
+  background-color: grey;
+  display: grid;
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  /* margin: 5px; */
+}
+#box1 {
+  background-color: red;
+  grid-column: 2/2;
+}
+#box2 {
+  background-color: green;
+}
+#box3 {
+  background-color: yellow;
+  grid-column: 2/2;
+  grid-row: 2/1;
+}
+#box4 {
+  background-color: blue;
+}
